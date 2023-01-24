@@ -3,9 +3,8 @@ import Image from "next/image";
 import { useState, useCallback, useEffect } from "react";
 
 import LeftButton from "../../public/images/leftButton.svg";
-import LeftButtonHover from "../../public/images/leftButtonHover.svg";
 import RightButton from "../../public/images/rightButton.svg";
-import RightButtonHover from "../../public/images/rightButtonHover.svg";
+
 
 export default function Carousel() {
   const [index, setIndex] = useState(0);
@@ -68,7 +67,7 @@ export default function Carousel() {
     "/images/14.jpg",
     "/images/15.jpg",
     "/images/16.jpg",
-    "/images/17.jpgß",
+    "/images/17.jpg",
     "/images/Thankyou.png",
   ];
 
@@ -119,6 +118,7 @@ export default function Carousel() {
             fill
             alt="picture"
             style={{ objectFit: "contain" }}
+            priority
           ></Image>
         </div>
       </>
@@ -142,6 +142,7 @@ export default function Carousel() {
               fill
               alt="picture"
               style={{ objectFit: "contain" }}
+              priority
             ></Image>
           </div>
         </>
