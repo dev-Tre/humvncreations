@@ -7,7 +7,7 @@ const variants = {
     opacity: 0,
     y: 40,
     transition: {
-      duration: 0.75,
+      duration: 0.85,
       staggerChildren: 0.5,
     },
   },
@@ -15,7 +15,7 @@ const variants = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 0.75,
+      duration: 0.85,
       staggerChildren: 0.5,
     },
   },
@@ -28,7 +28,6 @@ const Transition = ({ children }) => {
     <div className={styles.effect1}>
       <AnimatePresence initial={true} mode="wait">
         <motion.div
-          key={asPath}
           variants={variants}
           animate="in"
           initial="out"
