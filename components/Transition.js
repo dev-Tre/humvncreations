@@ -15,7 +15,7 @@ const variants = {
     y: 0,
     transition: {
       duration: 0.75,
-      delay: 0,
+      delayChildren: 0.5,
     },
   },
 };
@@ -25,7 +25,7 @@ const Transition = ({ children }) => {
 
   return (
     <div className={styles.effect1}>
-      <AnimatePresence initial={true} mode="popLayout">
+      <AnimatePresence initial={true} mode="wait">
         <motion.div
           key={asPath}
           variants={variants}
