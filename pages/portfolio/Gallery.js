@@ -141,8 +141,6 @@ export default function Carousel() {
               src={array[index]}
               fill
               alt="picture"
-              quality={100}
-              priority = "true"
               style={{ objectFit: "contain" }}
             ></Image>
           </div>
