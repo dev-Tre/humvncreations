@@ -77,6 +77,9 @@
     position: relative;
     z-index: 1;
   }
+  .nextMobile{
+    right: -3.5rem;
+  }
 }
 
 
