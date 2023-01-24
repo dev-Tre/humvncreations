@@ -8,6 +8,7 @@ const variants = {
     y: 40,
     transition: {
       duration: 0.75,
+      staggerChildren: 0.5,
     },
   },
   in: {
@@ -15,7 +16,7 @@ const variants = {
     y: 0,
     transition: {
       duration: 0.75,
-      delayChildren: 0.5,
+      staggerChildren: 0.5,
     },
   },
 };
