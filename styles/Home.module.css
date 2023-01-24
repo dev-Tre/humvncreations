@@ -1,0 +1,10 @@
+.textLink {
+  margin: 250px 0;
+  text-align: center;
+  font-size: 40px;
+  font-display: swap;
+}
+
+.textLink:hover {
+    color: #B06B97;
+}
