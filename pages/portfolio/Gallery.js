@@ -37,16 +37,16 @@ export default function Carousel() {
 
   const array = [
     "/images/skills.png",
-    "/images/1-D.png",
-    "/images/2-D.png",
-    "/images/3-D.png",
-    "/images/4-D.png",
-    "/images/5-D.png",
-    "/images/6-D.png",
-    "/images/7-D.png",
-    "/images/8-D.png",
-    "/images/9-D.png",
-    "/images/10-D.png",
+    "/images/1-D.jpg",
+    "/images/2-D.jpg",
+    "/images/3-D.jpg",
+    "/images/4-D.jpg",
+    "/images/5-D.jpg",
+    "/images/6-D.jpg",
+    "/images/7-D.jpg",
+    "/images/8-D.jpg",
+    "/images/9-D.jpg",
+    "/images/10-D.jpg",
     "/images/Thankyou.png",
   ];
   const mobileArray = [
